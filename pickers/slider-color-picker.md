@@ -37,7 +37,7 @@ The values can be HEX, HEX with Alpha, RGB, RGBA, HSL, HSLA.
 ```
 
 ## Demos
-You can play with the color picker at the top of this page or checkout the following links to play in the sandbox.
+You can play with the color picker at the top of this page or check out the following links to play in the sandbox.
 
 [No Framework](https://codesandbox.io/s/slider-color-picker-q6bp4)
 
