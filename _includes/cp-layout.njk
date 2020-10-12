@@ -1,0 +1,74 @@
+---
+layout: base-layout.njk
+---
+
+<style>
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  header {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 40px;
+  }
+  #colorPanel {
+    background: red;
+  }
+  h1 {
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 32px;
+    margin: 16px 0 0;
+  }
+  h4 {
+    margin: 8px 0 0;
+  }
+  a, a:hover, a:visited {
+    color: #4455BF;
+    text-decoration: none;
+    border-bottom: 2px solid #4455AA;
+  }
+  footer {
+    padding: 24px 8px;
+    text-align: center;
+    background: #f0f0f0;
+    margin-top: 80px;
+  }
+  a#footerLink {
+    border: none;
+    color: #000;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+</style>
+
+<article>
+  <header>
+    <div id="pickerPanel">
+    </div>
+    <div id="colorPanel">
+    </div>
+  </header>
+  <title>{%- if title -%}{{ title }}{%- else -%}Every Color Picker{%- endif -%}</title>
+  <main>
+  {{ content | safe }}
+  </main>
+  <footer>
+    <a id="footerLink" href="/">
+      <img src="/images/logo60.png" style="margin-right: 16px;">
+      <span>every color picker</span>
+    </a>
+  </footer>
+</article>
