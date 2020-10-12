@@ -4,6 +4,7 @@ title: Lucid Color Picker
 description: A simple color wheel based color picker.
 script: https://unpkg.com/lucid-color-picker
 element: lucid-color-picker
+size: 3.95 KB
 tags: ['pickers']
 ---
 

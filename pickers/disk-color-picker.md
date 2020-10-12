@@ -4,6 +4,7 @@ title: Disk Color Picker
 description: A color wheel based color picker
 script: https://unpkg.com/disk-color-picker
 element: disk-color-picker
+size: 4.24 KB
 tags: ['pickers']
 ---
 

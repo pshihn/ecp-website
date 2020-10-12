@@ -4,6 +4,7 @@ title: Dino Color Picker
 description: This color picker is inspired by the color picker in Chrome Dev Tools.
 script: https://unpkg.com/dino-color-picker
 element: dino-color-picker
+size: 5.64 KB
 tags: ['pickers']
 ---
 

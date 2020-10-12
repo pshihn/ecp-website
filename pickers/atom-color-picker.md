@@ -4,6 +4,7 @@ title: Atom Color Picker
 description: A simple color wheel based color picker.
 script: https://unpkg.com/atom-color-picker
 element: atom-color-picker
+size: 4.02 KB
 tags: ['pickers']
 ---
 

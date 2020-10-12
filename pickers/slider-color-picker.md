@@ -4,6 +4,7 @@ title: Slider Color Picker
 description: A simple color picker based on sliders.
 script: https://unpkg.com/slider-color-picker
 element: slider-color-picker
+size: 3.92 KB
 tags: ['pickers']
 ---
 

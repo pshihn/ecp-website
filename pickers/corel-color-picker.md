@@ -4,6 +4,7 @@ title: Corel Color Picker
 description: This color picker is inspired by the color picker in Corel Paint. 
 script: https://unpkg.com/corel-color-picker
 element: corel-color-picker
+size: 5 KB
 tags: ['pickers']
 ---
 

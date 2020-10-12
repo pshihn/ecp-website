@@ -4,6 +4,7 @@ title: Shop Color Picker
 description: This color picker is inspired by Adobe's Photoshop and Illustrator.
 script: https://unpkg.com/shop-color-picker
 element: shop-color-picker
+size: 5.78 KB
 tags: ['pickers']
 ---
 
