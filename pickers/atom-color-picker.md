@@ -4,6 +4,7 @@ title: Atom Color Picker
 description: A simple color wheel based color picker.
 script: https://unpkg.com/atom-color-picker
 element: atom-color-picker
+date: 2020-01-06
 size: 4.02 KB
 tags: ['pickers']
 ---
@@ -78,4 +79,4 @@ picker.addEventListener('change', () => {
 ```
 
 ## License & Source
-The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project [Github Sponsors](https://github.com/sponsors/pshihn).
+The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project via [Github Sponsors](https://github.com/sponsors/pshihn).

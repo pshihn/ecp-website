@@ -5,6 +5,7 @@ description: This color picker is inspired by the color picker in Chrome Dev Too
 script: https://unpkg.com/dino-color-picker
 element: dino-color-picker
 size: 5.64 KB
+date: 2020-01-02
 tags: ['pickers']
 ---
 
@@ -78,4 +79,4 @@ picker.addEventListener('change', () => {
 ```
 
 ## License & Source
-The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project [Github Sponsors](https://github.com/sponsors/pshihn).
+The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project via [Github Sponsors](https://github.com/sponsors/pshihn).

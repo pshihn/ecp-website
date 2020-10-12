@@ -4,6 +4,7 @@ title: Slider Color Picker
 description: A simple color picker based on sliders.
 script: https://unpkg.com/slider-color-picker
 element: slider-color-picker
+date: 2020-01-05
 size: 3.92 KB
 tags: ['pickers']
 ---
@@ -78,4 +79,4 @@ picker.addEventListener('change', () => {
 ```
 
 ## License & Source
-The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project [Github Sponsors](https://github.com/sponsors/pshihn).
+The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project via [Github Sponsors](https://github.com/sponsors/pshihn).

@@ -4,6 +4,7 @@ title: Shop Color Picker
 description: This color picker is inspired by Adobe's Photoshop and Illustrator.
 script: https://unpkg.com/shop-color-picker
 element: shop-color-picker
+date: 2020-01-04
 size: 5.78 KB
 tags: ['pickers']
 ---
@@ -78,4 +79,4 @@ picker.addEventListener('change', () => {
 ```
 
 ## License & Source
-The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project [Github Sponsors](https://github.com/sponsors/pshihn).
+The source code is available [on Github](https://github.com/pshihn/every-color-picker) under the [MIT License](https://github.com/pshihn/every-color-picker/blob/master/LICENSE). You can sponsor this project via [Github Sponsors](https://github.com/sponsors/pshihn).
