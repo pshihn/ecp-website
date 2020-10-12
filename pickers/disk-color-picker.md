@@ -2,7 +2,7 @@
 layout: cp-layout.njk
 title: Disk Color Picker
 description: A color wheel based color picker
-script: https://unpkg.com/disk-color-picker
+script: /scripts/disk-color-picker.js
 element: disk-color-picker
 date: 2020-01-03
 size: 4.24 KB

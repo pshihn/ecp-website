@@ -2,7 +2,7 @@
 layout: cp-layout.njk
 title: Dino Color Picker
 description: This color picker is inspired by the color picker in Chrome Dev Tools.
-script: https://unpkg.com/dino-color-picker
+script: /scripts/dino-color-picker.js
 element: dino-color-picker
 size: 5.64 KB
 date: 2020-01-02

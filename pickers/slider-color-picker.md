@@ -2,7 +2,7 @@
 layout: cp-layout.njk
 title: Slider Color Picker
 description: A simple color picker based on sliders.
-script: https://unpkg.com/slider-color-picker
+script: /scripts/slider-color-picker.js
 element: slider-color-picker
 date: 2020-01-05
 size: 3.92 KB
