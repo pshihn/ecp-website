@@ -3,7 +3,7 @@ layout: cp-layout.njk
 title: Slider Color Picker
 description: A simple color picker based on sliders.
 script: https://unpkg.com/slider-color-picker
-tag: slider-color-picker
+element: slider-color-picker
 tags: ['pickers']
 ---
 

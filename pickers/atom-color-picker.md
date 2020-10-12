@@ -3,7 +3,7 @@ layout: cp-layout.njk
 title: Atom Color Picker
 description: A simple color wheel based color picker.
 script: https://unpkg.com/atom-color-picker
-tag: atom-color-picker
+element: atom-color-picker
 tags: ['pickers']
 ---
 

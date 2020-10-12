@@ -3,7 +3,7 @@ layout: cp-layout.njk
 title: Disk Color Picker
 description: A color wheel based color picker
 script: https://unpkg.com/disk-color-picker
-tag: disk-color-picker
+element: disk-color-picker
 tags: ['pickers']
 ---
 

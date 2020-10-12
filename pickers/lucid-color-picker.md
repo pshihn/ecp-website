@@ -3,7 +3,7 @@ layout: cp-layout.njk
 title: Lucid Color Picker
 description: A simple color wheel based color picker.
 script: https://unpkg.com/lucid-color-picker
-tag: lucid-color-picker
+element: lucid-color-picker
 tags: ['pickers']
 ---
 

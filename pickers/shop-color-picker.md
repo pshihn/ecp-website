@@ -3,7 +3,7 @@ layout: cp-layout.njk
 title: Shop Color Picker
 description: This color picker is inspired by Adobe's Photoshop and Illustrator.
 script: https://unpkg.com/shop-color-picker
-tag: shop-color-picker
+element: shop-color-picker
 tags: ['pickers']
 ---
 

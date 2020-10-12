@@ -71,4 +71,17 @@ layout: base-layout.njk
       <span>every color picker</span>
     </a>
   </footer>
+
+  <script type="module">
+    import "{{ script }}";
+    document.querySelector('#pickerPanel').innerHTML = `<{{element}}></{{element}}>`
+    setTimeout(() => {
+      const preview = document.querySelector('#colorPanel');
+      const e = document.querySelector('{{element}}');
+      e.addEventListener('change', () => {
+        preview.style.background = e.value;
+      });
+      preview.style.background = e.value;
+    });
+  </script>
 </article>

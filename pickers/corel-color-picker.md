@@ -3,7 +3,7 @@ layout: cp-layout.njk
 title: Corel Color Picker
 description: This color picker is inspired by the color picker in Corel Paint. 
 script: https://unpkg.com/corel-color-picker
-tag: corel-color-picker
+element: corel-color-picker
 tags: ['pickers']
 ---
 
