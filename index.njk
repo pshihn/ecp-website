@@ -50,6 +50,8 @@ pagination:
     display: grid;
     place-content: center;
     place-items: center;
+    color: white;
+    background: rgb(191, 64, 64);
     transition: color 0.3s ease;
   }
   .colorPanel a {
@@ -88,7 +90,7 @@ pagination:
     setTimeout(() => {
       const preview = document.querySelector('.section{{loop.index}} .colorPanel');
       const e = document.querySelector('{{picker.data.element}}');
-      e.value = 'rgb(187, 27, 27)';
+      e.value = 'rgb(191, 64, 64)';
       e.addEventListener('change', () => {
         preview.style.background = e.value;
         const [r, g, b, a] = e.rgb;
