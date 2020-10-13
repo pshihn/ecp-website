@@ -4,7 +4,7 @@ title: Dino Color Picker
 description: This color picker is inspired by the color picker in Chrome Dev Tools.
 script: /scripts/dino-color-picker.js
 element: dino-color-picker
-size: 5.64 KB
+size: 5.66 KB
 date: 2020-01-02
 tags: ['pickers']
 ---

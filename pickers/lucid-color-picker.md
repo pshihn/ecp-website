@@ -4,7 +4,7 @@ title: Lucid Color Picker
 description: A simple color wheel based color picker.
 script: /scripts/lucid-color-picker.js
 element: lucid-color-picker
-size: 3.95 KB
+size: 3.97 KB
 date: 2020-01-07
 tags: ['pickers']
 ---
