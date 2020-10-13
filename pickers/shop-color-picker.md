@@ -5,7 +5,7 @@ description: This color picker is inspired by Adobe's Photoshop and Illustrator.
 script: /scripts/shop-color-picker.js
 element: shop-color-picker
 date: 2020-01-04
-size: 5.98 KB
+size: 5.99 KB
 tags: ['pickers']
 ---
 
