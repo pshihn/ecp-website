@@ -5,13 +5,15 @@ description: This color picker is inspired by Adobe's Photoshop and Illustrator.
 script: /scripts/shop-color-picker.js
 element: shop-color-picker
 date: 2020-01-04
-size: 5.78 KB
+size: 5.98 KB
 tags: ['pickers']
 ---
 
 # Shop Color Picker
 
 A color picker inspired by the color picker in Adobe's Photoshop and Illustrator. A radio selects what value the slider controls - Hue, Saturation, Brightness, Red, Green, Blue value. The rectangle next to the slider adjusts based on the current selection to create a plane representing the other two values in the color space. For example, if Hue is selected, the pointer on the plane affects the Saturation and Brightness; when Red is selected, the plane adjusts the Green and Blue values of the color. 
+
+The picker loads in a compact mode when the width of the container is less than 480px. 
 
 ## Installation 
 This color picker is shipped as an ES Module. You can add it to your project via npm
