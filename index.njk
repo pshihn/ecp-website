@@ -12,10 +12,6 @@ pagination:
   .flex {flex: 1;}
 
   header {
-    display: grid;
-    place-items: center;
-    place-content: center;
-    padding: 16px;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -62,15 +58,17 @@ pagination:
 </style>
 
 <header>
-  <div class="horizontal center" style="padding: 30px 0;">
-    <img src="/images/logo128.png" alt="every color picker logo" style="margin-right: 20px;">
-    <h1 class="flex">every color picker</h1>
+  <div style="display: grid; place-content: center; place-items: center;">
+    <div class="horizontal center" style="padding: 30px 0;">
+      <img src="/images/logo128.png" alt="every color picker logo" style="margin-right: 20px;">
+      <h1 class="flex">every color picker</h1>
+    </div>
   </div>
   <p>This is a collection of color picker custom-elements that can be used in any web application. You can use them on a plain HTML page or when using a JavaScript framework.</p>
-  <p>The goal of this project is to cover all styles and categories of color pickers, and all color related components. I'm starting out with seven of these, but more to come. Idea, thoughts, and contributions are welcome.</p>
+  <p>The goal of this project is to cover all styles and categories of color pickers, and all color related components. I'm starting out with seven of these, but more to come. Ideas, thoughts, and contributions are welcome.</p>
   <p>The source code is available <a href="https://github.com/pshihn/every-color-picker">on Github</a> under the <a href="https://github.com/pshihn/every-color-picker/blob/master/LICENSE">MIT License</a>. 
   You can sponsor this project via <a href="https://github.com/sponsors/pshihn">Github Sponsors</a>.</p>
-  <p><i>Note: These components are Beta-ish. So there may be some bugs lurking around.</i></p>
+  <p><i>Note: These components are Beta-ish. Please report issues on Github.</i></p>
 </header>
 
 <main>
@@ -113,4 +111,8 @@ pagination:
     <img src="/images/logo60.png" style="margin-right: 16px;" alt="every color picker logo">
     <span>every color picker</span>
   </a>
+  <p style="font-size: 14px; color: #555; margin-top: 2em;">
+  These components were made on the couch while binging shows on Netflix by <a href="https://twitter.com/preetster">Preet</a>. 
+  This website is made using <a href="https://www.11ty.dev/">11ty</a> and is open sourced <a href="https://github.com/pshihn/ecp-website">on Github</a>.
+  </p>
 </footer>
