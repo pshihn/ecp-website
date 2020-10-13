@@ -4,7 +4,7 @@ title: Atom Color Picker
 description: A simple color wheel based color picker.
 script: /scripts/atom-color-picker.js
 element: atom-color-picker
-
+date: 2020-01-06
 size: 4.02 KB
 tags: ['pickers']
 ---
