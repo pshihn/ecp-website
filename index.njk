@@ -14,8 +14,8 @@ pagination:
   header {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0 16px;
   }
-
   h1 {
     font-weight: 400;
     margin: 0;
@@ -55,12 +55,37 @@ pagination:
     border-color: inherit;
     border-bottom: 2px solid currentColor;
   }
+  #logoPanel img {
+    margin-right: 20px;
+  }
+
+  @media(max-width: 600px) {
+    #logoPanel.horizontal {
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 38px;
+      letter-spacing: 0;
+    }
+    #logoPanel img {
+      margin-bottom: 20px;
+    }
+    section {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr auto;
+      padding: 20px 0px;
+    }
+    .colorPanel {
+      padding: 16px 8px;
+      margin-top: 20px;
+    }
+  }
 </style>
 
 <header>
   <div style="display: grid; place-content: center; place-items: center;">
-    <div class="horizontal center" style="padding: 30px 0;">
-      <img src="/images/logo128.png" alt="every color picker logo" style="margin-right: 20px;">
+    <div id="logoPanel" class="horizontal center" style="padding: 30px 0;">
+      <img src="/images/logo128.png" alt="every color picker logo">
       <h1 class="flex">every color picker</h1>
     </div>
   </div>
