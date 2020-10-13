@@ -5,13 +5,13 @@ description: A simple color picker based on sliders.
 script: /scripts/slider-color-picker.js
 element: slider-color-picker
 date: 2020-01-05
-size: 3.92 KB
+size: 3.9 KB
 tags: ['pickers']
 ---
 
 # Slider Color Picker
 
-There are sliders to control the Hue, Saturation, Brightness, and the Opacity (Alpha). 
+Thie color picker has two modes — HSBA and RGBA. Sliders control the Hue, Saturation, Brightness, or the Red, Green, and Blue values of the color along with the Alpha value (opacity).
 
 ## Installation 
 This color picker is shipped as an ES Module. You can add it to your project via npm
@@ -33,8 +33,8 @@ The values can be HEX, HEX with Alpha, RGB, RGBA, HSL, HSLA.
 ```html
 <slider-color-picker><slider-color-picker>
 
-// or with some value
-<slider-color-picker value="#FF55A7"><slider-color-picker>
+// RGB sliders with some initial value
+<slider-color-picker mode="rgba" value="#FF55A7"><slider-color-picker>
 ```
 
 ## Demos
@@ -49,6 +49,9 @@ You can play with the color picker at the top of this page or check out the foll
 [React example](https://codesandbox.io/s/slider-color-picker-react-256yc)
 
 ## Properties and Attributes
+
+#### mode
+The mode can be set as a property or an attribute. It accepts two values: `rgba` and `hsba`. This determines if the sliders represent the parameters in the HSB color space or the RGB color space.
 
 #### value
 The value can be set on the element as a property or as an attribute to the node. The values can be HEX, HEX with Alpha, RGB, RGBA, HSL, HSLA.
