@@ -4,7 +4,7 @@ title: Disk Color Picker
 description: A color wheel based color picker
 script: /scripts/disk-color-picker.js
 element: disk-color-picker
-date: 2020-01-03
+date: 2020-01-02
 size: 4.25 KB
 tags: ['pickers']
 ---

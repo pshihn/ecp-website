@@ -4,7 +4,7 @@ title: Slider Color Picker
 description: A simple color picker based on sliders.
 script: /scripts/slider-color-picker.js
 element: slider-color-picker
-date: 2020-01-05
+date: 2020-01-06
 size: 3.97 KB
 tags: ['pickers']
 ---
